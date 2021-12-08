@@ -31,7 +31,7 @@ public class Project_05 {
             }
         }
     }
-    ////插入排序：方法一
+    //插入排序：方法二
     public static void InsterSort2(int[] arr){
         if (arr==null || arr.length < 2){
             return;
@@ -62,7 +62,5 @@ public class Project_05 {
         PrintArray(arr);
         InsterSort2(arr);
         PrintArray(arr);
-
-
     }
 }
